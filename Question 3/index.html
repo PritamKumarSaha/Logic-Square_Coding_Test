@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy's Cafe Search UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Joy's Cafe Search UI</h1>
+    <label for="searchBox">Search Cafes:</label>
+    <input type="text" id="searchBox" placeholder="Search Something" oninput="searchCafes()">
+    <table id="cafeTable">
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>Street Number</th>
+                <th>Locality</th>
+                <th>Postal Code</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </thead>
+        <tbody id="cafeList">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
